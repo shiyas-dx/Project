@@ -69,10 +69,16 @@ function Navbar({ cartLength, wishlistLength, onLogout }) {
   }, []);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/products/")
-      .then((res) => res.json())
-      .then((data) => setAllProducts(data))
-      .catch(() => setAllProducts([]));
+    const loadProducts = async () => {
+      try {
+        const res = await api.get("/products/");
+        setAllProducts(res.data);
+      } catch {
+        setAllProducts([]);
+      }
+    };
+
+    loadProducts();
   }, []);
 
   const handleSearchChange = (e) => {

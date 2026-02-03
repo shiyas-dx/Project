@@ -27,7 +27,7 @@ function Cart() {
         product: {
           ...item.product,
           image: item.product.image
-            ? `http://127.0.0.1:8000${item.product.image}`
+            ? `https://backend-api-s44j.onrender.com${item.product.image}`
             : "https://via.placeholder.com/250x200",
         },
       }));

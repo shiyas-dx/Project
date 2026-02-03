@@ -7,8 +7,6 @@ import "./Register.css";
 import api from "../api/axios";
 
 
-
-
 function Main() {
   const navigate = useNavigate();
 
@@ -34,11 +32,11 @@ function Main() {
 
   const fetchProducts = async () => {
     try {
-      const res = await axios.get(`/products/`);
+      const res = await api.get("/products/");
       const data = res.data.map((p) => ({
         ...p,
         image: p.image
-          ? `http://127.0.0.1:8000${p.image}`
+          ? `https://backend-api-s44j.onrender.com${p.image}`
           : `https://via.placeholder.com/250x200?text=${encodeURIComponent(p.name)}`,
       }));
       setProducts(data.slice(0, 12));
@@ -47,42 +45,25 @@ function Main() {
     }
   };
 
- 
+
   const fetchWishlist = async () => {
     try {
-      const token = localStorage.getItem("access");
-      if (!token) return;
-
-      const res = await fetch(`/wishlist/`, {
-        headers: { Authorization: `Bearer ${token}` },
-      });
-
-      if (!res.ok) throw new Error();
-
-      const data = await res.json();
-
+      const res = await api.get("/wishlist/");
+      const data = res.data;
       setWishlist(data.map((item) => item.product.id));
     } catch {
       setWishlist([]);
     }
   };
 
+
   const fetchCounts = async () => {
     try {
-      const token = localStorage.getItem("access");
+      const cartRes = await api.get("/cart/");
+      const wishlistRes = await api.get("/wishlist/");
 
-      const cartRes = await fetch(`/cart/`, {
-        headers: { Authorization: `Bearer ${token}` },
-      });
-
-      const wishlistRes = await fetch(`/wishlist/`, {
-        headers: { Authorization: `Bearer ${token}` },
-      });
-
-      if (!cartRes.ok || !wishlistRes.ok) throw new Error();
-
-      setCartCount((await cartRes.json()).length);
-      setWishlistCount((await wishlistRes.json()).length);
+      setCartCount(cartRes.data.length);
+      setWishlistCount(wishlistRes.data.length);
     } catch {
       setCartCount(0);
       setWishlistCount(0);
@@ -97,16 +78,10 @@ function Main() {
     if (!token) return navigate("/login");
 
     try {
-      const res = await fetch(`/cart/add/`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${token}`,
-        },
-        body: JSON.stringify({ product_id: product.id, quantity: 1 }),
+      await api.post("/cart/add/", {
+        product_id: product.id,
+        quantity: 1,
       });
-
-      if (!res.ok) throw new Error();
 
       fetchCounts();
       Swal.fire("Success", "Added to cart", "success");
@@ -125,16 +100,9 @@ function Main() {
     const isAlreadyWishlisted = wishlist.includes(product.id);
 
     try {
-      const res = await fetch(`/wishlist/toggle/`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${token}`,
-        },
-        body: JSON.stringify({ product_id: product.id }),
+      await api.post("/wishlist/toggle/", {
+        product_id: product.id,
       });
-
-      if (!res.ok) throw new Error();
 
       setWishlist((prev) =>
         isAlreadyWishlisted
@@ -155,6 +123,7 @@ function Main() {
       Swal.fire("Error", "Wishlist update failed", "error");
     }
   };
+
 
   const handleBuyNow = (e, product) => {
   e.stopPropagation();
