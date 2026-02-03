@@ -1,0 +1,847 @@
+{
+  "admin": [
+    {
+      "id": "999999",
+      "email": "shiyasdx98@gmail.com",
+      "password": "744927"
+    }
+  ],
+  "users": [
+    {
+      "id": "4b7e",
+      "firstname": "shiyas",
+      "username": "shiyas_dx",
+      "email": "shiyasdev62@gmail.com",
+      "password": "744927",
+      "cart": [],
+      "orders": [],
+      "wishlist": [],
+      "blocked": false
+    },
+    {
+      "id": "17ec",
+      "firstname": "shadirvaan",
+      "username": "shad",
+      "email": "shadirvaan999@gmail.com",
+      "password": "333333",
+      "cart": [],
+      "orders": [
+        {
+          "id": 1760514920745,
+          "products": [
+            {
+              "id": "1",
+              "name": "ASUS ROG Strix Scar 16 G635LW",
+              "quantity": 1,
+              "price": 359990
+            },
+            {
+              "id": "2",
+              "name": "HP OMEN Max 16-AH0076TX",
+              "quantity": 1,
+              "price": 309990
+            },
+            {
+              "id": "3",
+              "name": "Dell Alienware m18 R2",
+              "quantity": 1,
+              "price": 459489
+            }
+          ],
+          "totalAmount": 1129469,
+          "shipping": {
+            "name": "shadirvan",
+            "address": "pullara",
+            "pincode": "673638"
+          },
+          "paymentMethod": "UPI",
+          "date": "10/15/2025, 1:25:20 PM",
+          "status": "Paid"
+        }
+      ]
+    },
+    {
+      "id": "7973",
+      "firstname": "moideen fahad. A",
+      "username": "fahad._zy",
+      "email": "moideenfahad555@gmail.com",
+      "password": "123456",
+      "cart": [],
+      "orders": [
+        {
+          "id": 1760523596108,
+          "products": [
+            {
+              "id": "3",
+              "name": "Dell Alienware m18 R2",
+              "quantity": 1,
+              "price": 459489
+            },
+            {
+              "id": "9",
+              "name": "Dell Alienware x16 R2",
+              "quantity": 1,
+              "price": 461990
+            },
+            {
+              "id": "7",
+              "name": "Razer Blade 18 (2025)",
+              "quantity": 1,
+              "price": 349999
+            }
+          ],
+          "totalAmount": 1271478,
+          "shipping": {
+            "name": "moideeen fahad",
+            "address": "ahavanad valanjery malappuram kerala india ",
+            "pincode": "676301"
+          },
+          "paymentMethod": "Credit Card",
+          "date": "10/15/2025, 3:49:56 PM",
+          "status": "Paid"
+        }
+      ],
+      "wishlist": []
+    },
+    {
+      "id": "0aab",
+      "firstname": "ramees u",
+      "username": "Ramees",
+      "email": "mohammedrameesu58@gmail.com",
+      "password": "12345678",
+      "cart": [],
+      "orders": [
+        {
+          "id": 1760677706161,
+          "products": [
+            {
+              "id": "7",
+              "name": "Razer Blade 18 (2025)",
+              "quantity": 2,
+              "price": 349999
+            }
+          ],
+          "totalAmount": 699998,
+          "shipping": {
+            "name": "ramees u",
+            "address": "arimbra",
+            "pincode": "673638"
+          },
+          "paymentMethod": "UPI",
+          "date": "10/17/2025, 10:38:26 AM",
+          "status": "Paid"
+        }
+      ]
+    },
+    {
+      "id": "a003",
+      "firstname": "hadi",
+      "username": "hadi",
+      "email": "anuhadi98@mail.com",
+      "password": "12345678",
+      "cart": [],
+      "orders": []
+    },
+    {
+      "id": "dbc4",
+      "firstname": "bob123",
+      "username": "bob123",
+      "email": "bob123@gmail.com",
+      "password": "12345678",
+      "cart": [
+        {
+          "id": "2",
+          "name": "HP OMEN Max 16-AH0076TX",
+          "specs": "Intel Ultra 9, RTX 5080, 32GB RAM, 1TB SSD, mechanical RGB keyboard",
+          "description": [
+            "Powered by Intel Ultra 9 processor and NVIDIA RTX 5080 GPU for superior performance.",
+            "16-inch display optimized for gaming and creative workloads.",
+            "Mechanical RGB keyboard enhances the gaming experience with tactile feedback.",
+            "32GB DDR5 RAM and 1TB SSD provide speed and ample storage.",
+            "OMEN Tempest Cooling keeps the system stable under heavy load."
+          ],
+          "brand": "HP",
+          "category": [
+            "Gaming",
+            "Editing",
+            "Creator"
+          ],
+          "price": 309990,
+          "rating": 4.6,
+          "quantity": 1,
+          "image": "/images/2_.jpg"
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "3",
+          "name": "Dell Alienware m18 R2",
+          "specs": "Intel i9 14th Gen, RTX 5090, 64GB RAM, 1TB SSD, 18\" QHD+ 240Hz display",
+          "description": [
+            "Intel Core i9 14th Gen for elite gaming and professional workloads.",
+            "NVIDIA RTX 5090 GPU delivers unmatched power for 4K gaming and rendering.",
+            "18-inch QHD+ 240Hz panel provides ultra-smooth visuals.",
+            "64GB DDR5 RAM and 1TB SSD offer exceptional multitasking performance.",
+            "Alienware Cryo-tech cooling ensures consistent frame rates."
+          ],
+          "brand": "Dell",
+          "category": [
+            "Gaming",
+            "Editing",
+            "Rendering",
+            "High Performance"
+          ],
+          "price": 459489,
+          "rating": 4.9,
+          "quantity": 16,
+          "image": "/images/3_.jpg"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "ASUS ROG Strix Scar 16 G635LW",
+      "specs": "Intel Core Ultra 9, RTX 5080, 32GB RAM, 2TB SSD, MiniLED 16\" display, high refresh rate",
+      "description": [
+        "Powered by Intel Core Ultra 9 for extreme gaming and multitasking performance.",
+        "Equipped with NVIDIA RTX 5080 GPU for cutting-edge graphics and ray tracing.",
+        "MiniLED 16-inch QHD+ display delivers sharp visuals and ultra-smooth refresh rates.",
+        "32GB DDR5 RAM and 2TB SSD ensure fast load times and seamless gameplay.",
+        "Advanced cooling and RGB design optimized for long gaming sessions."
+      ],
+      "brand": "ASUS",
+      "category": [
+        "Gaming",
+        "Editing",
+        "High Performance"
+      ],
+      "price": 359990,
+      "rating": 4.8,
+      "quantity": 16,
+      "image": "/images/1_.jpg"
+    },
+    {
+      "id": "2",
+      "name": "HP OMEN Max 16-AH0076TX",
+      "specs": "Intel Ultra 9, RTX 5080, 32GB RAM, 1TB SSD, mechanical RGB keyboard",
+      "description": [
+        "Powered by Intel Ultra 9 processor and NVIDIA RTX 5080 GPU for superior performance.",
+        "16-inch display optimized for gaming and creative workloads.",
+        "Mechanical RGB keyboard enhances the gaming experience with tactile feedback.",
+        "32GB DDR5 RAM and 1TB SSD provide speed and ample storage.",
+        "OMEN Tempest Cooling keeps the system stable under heavy load."
+      ],
+      "brand": "HP",
+      "category": [
+        "Gaming",
+        "Editing",
+        "Creator"
+      ],
+      "price": 309990,
+      "rating": 4.6,
+      "quantity": 16,
+      "image": "/images/2_.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Dell Alienware m18 R2",
+      "specs": "Intel i9 14th Gen, RTX 5090, 64GB RAM, 1TB SSD, 18\" QHD+ 240Hz display",
+      "description": [
+        "Intel Core i9 14th Gen for elite gaming and professional workloads.",
+        "NVIDIA RTX 5090 GPU delivers unmatched power for 4K gaming and rendering.",
+        "18-inch QHD+ 240Hz panel provides ultra-smooth visuals.",
+        "64GB DDR5 RAM and 1TB SSD offer exceptional multitasking performance.",
+        "Alienware Cryo-tech cooling ensures consistent frame rates."
+      ],
+      "brand": "Dell",
+      "category": [
+        "Gaming",
+        "Editing",
+        "Rendering",
+        "High Performance"
+      ],
+      "price": 459489,
+      "rating": 4.9,
+      "quantity": 16,
+      "image": "/images/3_.jpg"
+    },
+    {
+      "id": "4",
+      "name": "ASUS TUF Gaming F16 FX688JPR-QT043WS",
+      "specs": "Intel i7 14th Gen, RTX 5070, 32GB RAM, 1TB SSD, 16\" 2.5K 165Hz display",
+      "description": [
+        "Intel Core i7 14th Gen processor for solid gaming and productivity tasks.",
+        "NVIDIA RTX 5070 GPU ensures smooth 2K gaming performance.",
+        "16-inch 2.5K display with 165Hz refresh rate delivers fluid visuals.",
+        "Military-grade TUF build ensures durability and long lifespan.",
+        "Efficient cooling keeps performance consistent during extended use."
+      ],
+      "brand": "ASUS",
+      "category": [
+        "Gaming",
+        "Editing",
+        "Student",
+        "Work"
+      ],
+      "price": 179990,
+      "rating": 4.5,
+      "quantity": 16,
+      "image": "/images/4_.jpg"
+    },
+    {
+      "id": "5",
+      "name": "ASUS ROG Zephyrus G16 GU605CW-QR133WS",
+      "specs": "Intel Ultra 9, RTX 5080, 32GB RAM, 2TB SSD, sleek portable 16\" build",
+      "description": [
+        "Powered by Intel Ultra 9 for professional and gaming-grade performance.",
+        "RTX 5080 GPU ensures smooth gameplay and advanced rendering.",
+        "Lightweight 16-inch chassis perfect for travel and portability.",
+        "2TB SSD and 32GB DDR5 RAM deliver ultra-fast workflow efficiency.",
+        "Minimalist design ideal for gamers and creators on the go."
+      ],
+      "brand": "ASUS",
+      "category": [
+        "Gaming",
+        "Creator",
+        "Portable",
+        "Editing"
+      ],
+      "price": 349990,
+      "rating": 4.7,
+      "quantity": 16,
+      "image": "/images/5_.jpg"
+    },
+    {
+      "id": "6",
+      "name": "MSI Raider 18 HX AI (2025)",
+      "specs": "Intel Ultra 9 285HX, RTX 5080, 64GB RAM, 4TB SSD, 18\" MiniLED 4K/240Hz display",
+      "description": [
+        "Intel Ultra 9 285HX processor ensures top-tier performance for gaming and AI tasks.",
+        "RTX 5080 GPU supports 4K gaming and deep learning workloads.",
+        "Massive 18-inch MiniLED display with 4K and 240Hz refresh rate.",
+        "Equipped with 64GB RAM and 4TB SSD for ultimate storage and speed.",
+        "RGB customization and AI-optimized cooling for stable gaming sessions."
+      ],
+      "brand": "MSI",
+      "category": [
+        "Gaming",
+        "AI",
+        "Editing",
+        "Rendering"
+      ],
+      "price": 299999,
+      "rating": 4.8,
+      "quantity": 16,
+      "image": "/images/6_.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Razer Blade 18 (2025)",
+      "specs": "Elite design, dual-mode 18\" display (4K/240Hz ↔ 1200p/440Hz), RTX 5090",
+      "description": [
+        "Premium aluminum build with minimalist Razer aesthetics.",
+        "RTX 5090 GPU handles 4K gaming, 3D rendering, and streaming with ease.",
+        "Dual-mode 18-inch display allows switching between resolution and refresh.",
+        "High-performance cooling ensures quiet yet efficient operation.",
+        "Ideal for gamers, creators, and professionals seeking power and style."
+      ],
+      "brand": "Razer",
+      "category": [
+        "Gaming",
+        "Editing",
+        "Rendering",
+        "Creator"
+      ],
+      "price": 349999,
+      "rating": 4.9,
+      "quantity": 16,
+      "image": "/images/7_.jpg"
+    },
+    {
+      "id": "8",
+      "name": "ASUS ROG Strix G16 G615LR-S5190WS",
+      "specs": "Ultra 9 CPU, 32GB RAM, 1TB SSD, RTX 5080, balanced performance",
+      "description": [
+        "Powered by Intel Ultra 9 and RTX 5080 for a balance of speed and efficiency.",
+        "16-inch display offers immersive visuals for both work and play.",
+        "32GB RAM and 1TB SSD ensure smooth multitasking and storage capacity.",
+        "RGB backlit keyboard enhances gaming atmosphere.",
+        "Durable ROG build for gamers and creators alike."
+      ],
+      "brand": "ASUS",
+      "category": [
+        "Gaming",
+        "Editing",
+        "Creator",
+        "Work"
+      ],
+      "price": 259990,
+      "rating": 4.6,
+      "quantity": 16,
+      "image": "/images/8_.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Dell Alienware x16 R2",
+      "specs": "Intel Ultra 9, 32GB RAM, 1TB SSD, RTX 5090, metal build and vapor chamber cooling",
+      "description": [
+        "Intel Ultra 9 processor with RTX 5090 GPU ensures ultimate gaming power.",
+        "Premium metal design and vapor chamber cooling for silent performance.",
+        "16-inch QHD display ideal for gamers and creative professionals.",
+        "32GB DDR5 RAM and 1TB SSD ensure lightning-fast data processing.",
+        "AlienFX lighting offers customizable RGB effects."
+      ],
+      "brand": "Dell",
+      "category": [
+        "Gaming",
+        "Creator",
+        "Editing",
+        "Rendering"
+      ],
+      "price": 461990,
+      "rating": 4.9,
+      "quantity": 16,
+      "image": "/images/9_.jpg"
+    },
+    {
+      "id": "10",
+      "name": "ASUS ROG Flow Z13 GZ302EA-RU420WS",
+      "specs": "Portable convertible 13-inch, Ryzen AI Max, 32GB RAM, 1TB SSD",
+      "description": [
+        "2-in-1 convertible design with detachable keyboard for versatility.",
+        "Ryzen AI Max processor supports gaming, editing, and productivity tasks.",
+        "13-inch compact size ideal for travel and portability.",
+        "32GB RAM and 1TB SSD offer great balance of speed and space.",
+        "Touchscreen supports stylus input for creative professionals."
+      ],
+      "brand": "ASUS",
+      "category": [
+        "Portable",
+        "Creator",
+        "Gaming",
+        "Student"
+      ],
+      "price": 199990,
+      "rating": 4.4,
+      "quantity": 16,
+      "image": "/images/10_.jpg"
+    },
+    {
+      "id": "11",
+      "name": "ASUS ROG Strix Scar 18 G635LW-RW157WS",
+      "specs": "Ultra top-tier: Ultra 9/RTX 5090, 18\" MiniLED QHD+ 240Hz, 64GB RAM",
+      "description": [
+        "Built for professionals and hardcore gamers demanding peak performance.",
+        "Intel Ultra 9 and RTX 5090 deliver best-in-class gaming and rendering.",
+        "18-inch MiniLED QHD+ 240Hz display for unmatched clarity and speed.",
+        "64GB DDR5 RAM ensures future-proof multitasking and heavy workloads.",
+        "ROG intelligent cooling system maximizes sustained performance."
+      ],
+      "brand": "ASUS",
+      "category": [
+        "Gaming",
+        "Editing",
+        "Rendering",
+        "High Performance"
+      ],
+      "price": 399999,
+      "rating": 4.9,
+      "quantity": 16,
+      "image": "/images/11_.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Lenovo Legion Pro 7i",
+      "specs": "Ultra 9 + RTX 5080, 32GB RAM, 2TB SSD, refined cooling, 16-inch high refresh",
+      "description": [
+        "Intel Ultra 9 and RTX 5080 combine power and efficiency.",
+        "Legion ColdFront cooling ensures thermal control and low noise.",
+        "16-inch high refresh rate panel ideal for fast-paced gaming.",
+        "2TB SSD and 32GB RAM deliver premium speed and performance.",
+        "Refined design suited for gaming and creative professionals."
+      ],
+      "brand": "Lenovo",
+      "category": [
+        "Gaming",
+        "Creator",
+        "Editing",
+        "Work"
+      ],
+      "price": 249990,
+      "rating": 4.7,
+      "quantity": 16,
+      "image": "/images/12_.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Lenovo Legion Pro 5i",
+      "specs": "Ultra 9/similar high perf, RTX 5070, 32GB RAM, 1TB SSD",
+      "description": [
+        "Balanced performance with Ultra 9 CPU and RTX 5070 GPU.",
+        "Ideal for high-end gaming and editing tasks.",
+        "16-inch FHD+ high refresh rate display for smooth visuals.",
+        "32GB RAM and 1TB SSD enhance workflow efficiency.",
+        "Durable and minimal Legion design with advanced cooling."
+      ],
+      "brand": "Lenovo",
+      "category": [
+        "Gaming",
+        "Editing",
+        "Work",
+        "Student"
+      ],
+      "price": 229990,
+      "rating": 4.6,
+      "quantity": 16,
+      "image": "/images/13_.jpg"
+    },
+    {
+      "id": "14",
+      "name": "ASUS ROG Zephyrus G14 (2025)",
+      "specs": "Portable but powerful: OLED, Ultra 9/5070, 32GB RAM, 14-inch form",
+      "description": [
+        "Compact 14-inch design with brilliant OLED display.",
+        "Powered by Intel Ultra 9 and RTX 5070 for gaming and creation.",
+        "32GB RAM ensures flawless multitasking and editing workflows.",
+        "Lightweight chassis ideal for portability.",
+        "Perfect blend of mobility, style, and performance."
+      ],
+      "brand": "ASUS",
+      "category": [
+        "Portable",
+        "Gaming",
+        "Creator",
+        "Editing"
+      ],
+      "price": 269990,
+      "rating": 4.8,
+      "quantity": 16,
+      "image": "/images/14_.jpg"
+    },
+    {
+      "id": "15",
+      "name": "MSI Titan 18 HX",
+      "specs": "Flagship 18\", RTX 4090, 64GB RAM, 4TB SSD, strongest GPU power",
+      "description": [
+        "Flagship MSI gaming laptop featuring RTX 4090 GPU for ultra performance.",
+        "18-inch display optimized for 4K and competitive gaming.",
+        "64GB DDR5 RAM and 4TB SSD offer unmatched speed and storage.",
+        "Superior cooling system for high-power gaming sessions.",
+        "Designed for gamers and professionals demanding peak capability."
+      ],
+      "brand": "MSI",
+      "category": [
+        "Gaming",
+        "Rendering",
+        "Editing",
+        "High Performance"
+      ],
+      "price": 480000,
+      "rating": 4.9,
+      "quantity": 16,
+      "image": "/images/15_.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Acer Predator Triton 18X",
+      "specs": "Thin beast, Ultra 9 HX, RTX 5090, 1TB SSD, gaming-creator hybrid",
+      "description": [
+        "Intel Ultra 9 HX and RTX 5090 deliver raw gaming and creative performance.",
+        "Sleek and thin chassis for portability despite its 18-inch power.",
+        "Excellent cooling system balances thermals and acoustics.",
+        "1TB SSD and 32GB RAM ensure smooth content creation workflows.",
+        "Ideal for gamers, streamers, and editors on the move."
+      ],
+      "brand": "Acer",
+      "category": [
+        "Gaming",
+        "Creator",
+        "Editing",
+        "Portable"
+      ],
+      "price": 389999,
+      "rating": 4.7,
+      "quantity": 16,
+      "image": "/images/16_.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Razer Blade 16",
+      "specs": "Premium 16-inch OLED/IPS, Ultra 9/RTX 5080 Ti, great for gaming and content creation",
+      "description": [
+        "Ultra-premium build featuring OLED/IPS hybrid display.",
+        "Intel Ultra 9 and RTX 5080 Ti handle both gaming and creative workloads.",
+        "Sleek thin design with superior thermal control.",
+        "Perfect for professionals needing portability and raw power.",
+        "Ideal for gaming, editing, and 3D design work."
+      ],
+      "brand": "Razer",
+      "category": [
+        "Gaming",
+        "Editing",
+        "Creator",
+        "Portable"
+      ],
+      "price": 329999,
+      "rating": 4.8,
+      "quantity": 16,
+      "image": "/images/17_.webp"
+    },
+    {
+      "id": "18",
+      "name": "Gigabyte Aorus 17X",
+      "specs": "Desktop replacement, RTX 5090, high refresh QHD, 64GB RAM, beast cooling",
+      "description": [
+        "Designed as a desktop replacement for enthusiasts.",
+        "RTX 5090 GPU provides next-gen gaming performance.",
+        "QHD high refresh display ensures smooth gameplay.",
+        "64GB RAM ensures multitasking power for content creators.",
+        "Advanced WindForce cooling keeps the system cool and quiet."
+      ],
+      "brand": "Gigabyte",
+      "category": [
+        "Gaming",
+        "Editing",
+        "Rendering",
+        "High Performance"
+      ],
+      "price": 459999,
+      "rating": 4.9,
+      "quantity": 16,
+      "image": "/images/18_.jpg"
+    },
+    {
+      "id": "19",
+      "name": "MSI Titan 17 HX",
+      "specs": "RTX 4090, 48-64 GB RAM, 2TB SSD, 17.3\" 240Hz panel",
+      "description": [
+        "Intel i9 processor with RTX 4090 GPU for extreme power.",
+        "17.3-inch QHD 240Hz panel ideal for competitive gaming.",
+        "Upgradable 48-64GB RAM and 2TB SSD for heavy workloads.",
+        "Mechanical keyboard with RGB customization.",
+        "Cooling system ensures sustained high performance."
+      ],
+      "brand": "MSI",
+      "category": [
+        "Gaming",
+        "Editing",
+        "Rendering",
+        "High Performance"
+      ],
+      "price": 350000,
+      "rating": 4.8,
+      "quantity": 16,
+      "image": "/images/19_.jpg"
+    },
+    {
+      "id": "20",
+      "name": "ASUS ROG Zephyrus Duo 16",
+      "specs": "Dual-screen layout, Ultra 9, RTX 5070, 32 GB RAM, creative + gaming hybrid",
+      "description": [
+        "Innovative dual-screen design perfect for multitasking.",
+        "Ultra 9 processor and RTX 5070 GPU ensure peak creative performance.",
+        "32GB RAM and 2TB SSD provide top-tier speed and responsiveness.",
+        "Ideal for gamers, streamers, and creative professionals.",
+        "Premium magnesium alloy build ensures durability and cooling."
+      ],
+      "brand": "ASUS",
+      "category": [
+        "Gaming",
+        "Editing",
+        "Creator",
+        "Hybrid"
+      ],
+      "price": 379999,
+      "rating": 4.7,
+      "quantity": 16,
+      "image": "/images/20_.jpg"
+    },
+    {
+      "id": "21",
+      "name": "HP Reverb G2 Gaming Laptop",
+      "specs": "High performance VR ready, Ultra CPU, 32 GB RAM, high refresh rate",
+      "description": [
+        "Built for VR and AR experiences with high refresh rate support.",
+        "Intel Ultra processor provides smooth, lag-free gameplay.",
+        "32GB RAM allows for multitasking and performance-heavy tasks.",
+        "Durable HP build with customizable RGB keyboard.",
+        "Perfect for VR enthusiasts, creators, and gamers."
+      ],
+      "brand": "HP",
+      "category": [
+        "Gaming",
+        "VR",
+        "Creator",
+        "Editing"
+      ],
+      "price": 299999,
+      "rating": 4.5,
+      "quantity": 16,
+      "image": "/images/21_.jpg"
+    },
+    {
+      "id": "22",
+      "name": "Lenovo LOQ 15 Gen10",
+      "specs": "Balanced high-end: RTX 5060, Ryzen 7/Ultra CPU, 15.6\" 144Hz, strong thermals",
+      "description": [
+        "Affordable yet powerful with RTX 5060 GPU and Ryzen 7 CPU.",
+        "15.6-inch 144Hz panel provides smooth visuals for gaming.",
+        "Strong thermals and Legion-style cooling for consistent output.",
+        "32GB RAM and 1TB SSD ideal for mid-tier gaming and work.",
+        "Sleek design suited for students and professionals."
+      ],
+      "brand": "Lenovo",
+      "category": [
+        "Gaming",
+        "Student",
+        "Work",
+        "Editing"
+      ],
+      "price": 189990,
+      "rating": 4.4,
+      "quantity": 16,
+      "image": "/images/22_.avif"
+    },
+    {
+      "id": "23",
+      "name": "ASUS TUF Gaming A16",
+      "specs": "Ryzen 9 HX, RTX 5070, 32GB RAM, 1TB SSD, rugged build",
+      "description": [
+        "Ryzen 9 HX processor delivers smooth multitasking and gaming.",
+        "RTX 5070 GPU ensures powerful graphics for demanding titles.",
+        "Durable TUF design built to withstand heavy usage.",
+        "32GB RAM and 1TB SSD make it fast and responsive.",
+        "Military-grade durability meets gaming power."
+      ],
+      "brand": "ASUS",
+      "category": [
+        "Gaming",
+        "Work",
+        "Editing",
+        "Portable"
+      ],
+      "price": 219990,
+      "rating": 4.5,
+      "quantity": 16,
+      "image": "/images/23_.jpg"
+    },
+    {
+      "id": "24",
+      "name": "MSI Stealth 16HX",
+      "specs": "Ultra portables: thinner body, RTX 5080, 32GB RAM, high refresh OLED",
+      "description": [
+        "Thin and portable body without compromising power.",
+        "Equipped with RTX 5080 for smooth gameplay and rendering.",
+        "High refresh OLED display ensures vibrant and fast visuals.",
+        "Ideal for gaming and professional editing work.",
+        "Silent cooling system with stealthy design."
+      ],
+      "brand": "MSI",
+      "category": [
+        "Gaming",
+        "Editing",
+        "Portable",
+        "Creator"
+      ],
+      "price": 239999,
+      "rating": 4.6,
+      "quantity": 16,
+      "image": "/images/24_.jpg"
+    },
+    {
+      "id": "25",
+      "name": "Dell G7 17",
+      "specs": "17-inch big screen, RTX 4070, 32GB RAM, 1TB SSD, good cooling",
+      "description": [
+        "Large 17-inch display perfect for immersive gaming and media editing.",
+        "Powered by RTX 4070 GPU for smooth gameplay.",
+        "32GB RAM and 1TB SSD ensure speed and multitasking capability.",
+        "Dell G Series cooling keeps temperatures in control.",
+        "Ideal for gamers and creators seeking a big-screen experience."
+      ],
+      "brand": "Dell",
+      "category": [
+        "Gaming",
+        "Editing",
+        "Work",
+        "Student"
+      ],
+      "price": 199990,
+      "rating": 4.4,
+      "quantity": 16,
+      "image": "/images/25_.jpg"
+    },
+    {
+      "id": "26",
+      "name": "ASUS ROG Strix Scar 18",
+      "specs": "Extreme power, 18-inch display, Ultra CPU / RTX 5090, 64GB RAM, 4TB SSD",
+      "description": [
+        "Massive 18-inch QHD+ display optimized for competitive gaming.",
+        "Intel Ultra CPU and RTX 5090 offer cutting-edge power.",
+        "64GB DDR5 RAM and 4TB SSD enable unparalleled speed.",
+        "ROG cooling keeps performance stable under heavy load.",
+        "Built for elite gamers and professional creators."
+      ],
+      "brand": "ASUS",
+      "category": [
+        "Gaming",
+        "Rendering",
+        "Editing",
+        "High Performance"
+      ],
+      "price": 499999,
+      "rating": 5,
+      "quantity": 16,
+      "image": "/images/26_.jpg"
+    },
+    {
+      "id": "27",
+      "name": "Dell Alienware X17 R2",
+      "specs": "Classic large-chassis design, i9/RTX 4090, 32GB RAM, 2TB SSD",
+      "description": [
+        "Classic Alienware chassis with futuristic RGB lighting.",
+        "Intel Core i9 CPU and RTX 4090 GPU deliver extreme gaming power.",
+        "17-inch display perfect for competitive gamers and content creators.",
+        "32GB RAM and 2TB SSD ensure fast performance.",
+        "AlienFX lighting and advanced cooling for aesthetic and stability."
+      ],
+      "brand": "Dell",
+      "category": [
+        "Gaming",
+        "Editing",
+        "Rendering",
+        "Creator"
+      ],
+      "price": 309999,
+      "rating": 4.8,
+      "quantity": 16,
+      "image": "/images/27_.jpg"
+    },
+    {
+      "id": "28",
+      "name": "Lenovo Legion 7i",
+      "specs": "Intel Core i9-12900HK, NVIDIA GeForce RTX 4080, 32GB DDR5, 2TB SSD",
+      "description": [
+        "17.3-inch QHD display with 165Hz refresh rate and Dolby Vision support for stunning visuals.",
+        "Powered by Intel Core i9-12900HK and NVIDIA GeForce RTX 4080 for ultimate gaming performance.",
+        "32GB DDR5 RAM and 2TB PCIe 4.0 SSD provide fast data access and multitasking capabilities.",
+        "Advanced Legion Coldfront 4.0 cooling technology ensures low temperatures during intensive gameplay.",
+        "RGB backlit keyboard with customizable lighting zones for immersive gaming.",
+        "Perfect for gamers and creative professionals looking for high-end performance and portability."
+      ],
+      "brand": "Lenovo",
+      "category": [
+        "Gaming",
+        "High-End",
+        "Creator",
+        "Professional"
+      ],
+      "price": 349999,
+      "rating": 4.85,
+      "quantity": 16,
+      "image": "/images/28_.webp"
+    }
+  ]
+}
