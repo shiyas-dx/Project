@@ -5,6 +5,7 @@ Django==5.2.9
 django-cors-headers==4.9.0
 django-filter==25.2
 djangorestframework==3.16.1
+djangorestframework_simplejwt==5.5.1
 drf-yasg==1.21.14
 filelock==3.20.0
 gunicorn==25.0.1
@@ -15,6 +16,7 @@ platformdirs==4.5.0
 psycopg==3.3.2
 psycopg-binary==3.3.2
 psycopg2-binary==2.9.11
+PyJWT==2.11.0
 pytz==2025.2
 PyYAML==6.0.3
 sqlparse==0.5.4
