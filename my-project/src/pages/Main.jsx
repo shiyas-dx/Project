@@ -4,9 +4,10 @@ import Swal from "sweetalert2";
 import { motion } from "framer-motion";
 import Navbar from "./Navbar";
 import "./Register.css";
-import axios from "axios";
+import api from "../api/axios";
 
-const API_BASE = "http://127.0.0.1:8000/api";
+
+
 
 function Main() {
   const navigate = useNavigate();
@@ -33,7 +34,7 @@ function Main() {
 
   const fetchProducts = async () => {
     try {
-      const res = await axios.get(`${API_BASE}/products/`);
+      const res = await axios.get(`/products/`);
       const data = res.data.map((p) => ({
         ...p,
         image: p.image
@@ -52,7 +53,7 @@ function Main() {
       const token = localStorage.getItem("access");
       if (!token) return;
 
-      const res = await fetch(`${API_BASE}/wishlist/`, {
+      const res = await fetch(`/wishlist/`, {
         headers: { Authorization: `Bearer ${token}` },
       });
 
@@ -70,11 +71,11 @@ function Main() {
     try {
       const token = localStorage.getItem("access");
 
-      const cartRes = await fetch(`${API_BASE}/cart/`, {
+      const cartRes = await fetch(`/cart/`, {
         headers: { Authorization: `Bearer ${token}` },
       });
 
-      const wishlistRes = await fetch(`${API_BASE}/wishlist/`, {
+      const wishlistRes = await fetch(`/wishlist/`, {
         headers: { Authorization: `Bearer ${token}` },
       });
 
@@ -96,7 +97,7 @@ function Main() {
     if (!token) return navigate("/login");
 
     try {
-      const res = await fetch(`${API_BASE}/cart/add/`, {
+      const res = await fetch(`/cart/add/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -124,7 +125,7 @@ function Main() {
     const isAlreadyWishlisted = wishlist.includes(product.id);
 
     try {
-      const res = await fetch(`${API_BASE}/wishlist/toggle/`, {
+      const res = await fetch(`/wishlist/toggle/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
