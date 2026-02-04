@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
+import api from "../api/axios";
 
 function Navbar({ cartLength, wishlistLength, onLogout }) {
   const navigate = useNavigate();
