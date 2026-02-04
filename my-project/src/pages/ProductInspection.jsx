@@ -21,7 +21,7 @@ function ProductInspection() {
   const getImageUrl = (image) => {
     if (!image) return "";
     if (image.startsWith("http")) return image;
-    return `http://127.0.0.1:8000${image}`;
+    return `https://backend-api-s44j.onrender.com${image}`;
   };
 
   useEffect(() => {
@@ -82,7 +82,7 @@ function ProductInspection() {
         .slice(0, 4)
         .map(p => ({
           ...p,
-          image: p.image ? `http://127.0.0.1:8000${p.image}` : `https://via.placeholder.com/250x200?text=${encodeURIComponent(p.name)}`
+          image: p.image ? `https://backend-api-s44j.onrender.com${p.image}` : `https://via.placeholder.com/250x200?text=${encodeURIComponent(p.name)}`
         }));
       setSimilarProducts(filtered);
     } catch (err) {

@@ -170,7 +170,7 @@ function Products() {
                     <img
                       src={
                         product.image
-                          ? `http://127.0.0.1:8000${product.image}`
+                          ? `https://backend-api-s44j.onrender.com${product.image}`
                           : "/placeholder.png"
                       }
                       alt={product.name}
@@ -237,7 +237,7 @@ function Products() {
                     <img
                       src={
                         product.image
-                          ? `http://127.0.0.1:8000${product.image}`
+                          ? `https://backend-api-s44j.onrender.com${product.image}`
                           : "/placeholder.png"
                       }
                       alt={product.name}
